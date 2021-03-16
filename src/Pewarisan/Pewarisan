@@ -1,0 +1,22 @@
+package Pewarisan;
+
+/**
+ *
+ * @author DANI TAUFIKUL HAKIM
+ */
+public class Pewarisan {
+    public static void main ( String [] args) {
+        //ambil dari class Person
+        Person Dani = new Person ("Dani Taufikul Hakim", "Probolinggo", "Playing Football", 19);
+        System.out.println("Adress: "+Dani.getAddress()+", Age: "+Dani.getAge()+", Hobby: "+Dani.getHobby()+", Name: "+Dani.getName());
+        
+        //ambil dari class Mahasiswa
+        Mahasiswa Rico = new Mahasiswa ("Rico Atmojo", "Jakarta", "Swimming", 23, "E31204523");
+        
+        Rico.setAddress("Jakarta");
+        Rico.setAge(23);
+        Rico.setHobby("Swimming");
+        Rico.setName("Rico Atmojo");
+            System.out.println("Adress: "+Rico.getAddress()+", Age: "+Rico.getAge()+", Hobby: "+Rico.getHobby()+", Name: "+Rico.getName()+", NIM: "+Rico.getNim());    
+    }
+}
