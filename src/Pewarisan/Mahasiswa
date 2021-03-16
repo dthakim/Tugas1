@@ -1,0 +1,19 @@
+package Pewarisan;
+
+/**
+ *
+ * @author DANI TAUFIKUL HAKIM
+ */
+public class Mahasiswa extends Person{
+    protected String nim;
+    
+    public Mahasiswa (String name, String address, String hobby, int age, String nim) {
+    super(name, address, hobby, age);
+    
+    this.nim = nim;
+        System.out.println("Hello from Mahasiswa class");
+}
+    public String getNim () {
+        return nim;
+    }
+}
